@@ -9,7 +9,7 @@ public class HomeController {
 
     @GetMapping("home")
     public String home(Model model) {
-        model.addAttribute("data", "우윳빛깔 최민영");
+        model.addAttribute("data", "최민영");
         return "home";
     }
 }
